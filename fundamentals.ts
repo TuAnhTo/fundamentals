@@ -19,36 +19,12 @@ import "./scss/styles.scss";
 //   }
 //   console.log(lang);
 //   console.log(target);
-// }
-
-
-function main() {
-  var x = 5;
-  console.log(x);
-  var x = 10;
-  console.log(x);
-
-  let y = 55;
-  console.log(y);
-  let y = 100;
-  console.log(y);
-}
-
+//
 
 /*
-function main() {
-  console.log(x);
-  var x = 5;
-
-  console.log(y);
-  let y = 10;
-}
- */
-
-/**
  * Data types
  */
-/*
+
 function main() {
   let message: string;
   let total: number = 100;
@@ -79,10 +55,10 @@ function main() {
   unknown = Direction.UP;
   unknown = 'changed';
 
-  const post: IPost = {
+  const post: IPost = { id: "id" , title: "title"
 
   };
-  message = 50;
+  message = "50";
 
   function getPost(postId: string): IPost {
     // do something to retrieve post
@@ -94,7 +70,7 @@ function main() {
     } as IPost;
   }
 }
- */
+
 
 // function main() {}
 
